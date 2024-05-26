@@ -15,10 +15,6 @@ HomelyHub is an online hotel booking application built using the MERN stack (Mon
 
 6.API Endpoints
 
-7.Contributing
-
-8.License
-
 **Introduction**
 HomelyHub provides an intuitive platform for users to book hotel rooms with ease. With a user-friendly interface and robust backend, it ensures a smooth booking experience. The application leverages the MERN stack to deliver a dynamic and responsive user experience.
 
@@ -52,14 +48,60 @@ To get a local copy up and running, follow these simple steps:
 **i.Clone the repository:**
 
 (```git clone https://github.com/yourusername/homelyhub.git
-
 cd homelyhub```)
+
 **ii.Install dependencies for both frontend and backend:**
-(```# Install backend dependencies
-cd backend
-npm install
+
+# Install backend dependencies
+(```cd backend
+npm install```)
 
 # Install frontend dependencies
-cd ../frontend
-npm install
-```)
+(```cd ../frontend
+npm install```)
+
+**iii. Set up environment variables:**
+
+Created a **config.env** file in the backend directory and add the following:
+
+**iv.Run the application:**
+
+# Run backend
+(```cd backend
+npm start```)
+
+# Run frontend
+
+(```cd ../frontend
+npm start```)
+
+The application will be accessible at http://localhost:3000 and the backend at http://localhost:5000.
+
+**Usage**
+
+- Register a new user or log in with existing credentials.
+- Search for hotels by entering a location, check-in date, and check-out date.
+- View hotel details and available rooms.
+- Book a room and receive a confirmation.
+- Access the user dashboard to view and manage your bookings.
+
+**API Endpoints**
+
+**User Authentication**
+- POST /api/users/register: Register a new user
+- POST /api/users/login: Log in an existing user
+  
+**Hotels**
+
+- GET /api/hotels: Get a list of hotels
+- GET /api/hotels/:id: Get details of a specific hotel
+  
+**Bookings**
+- POST /api/bookings: Create a new booking
+- GET /api/bookings/user: Get bookings for a logged-in user
+  
+**Admin**
+- POST /api/admin/hotels: Add a new hotel
+- PUT /api/admin/hotels/:id: Update a hotel
+- DELETE /api/admin/hotels/:id: Delete a hotel
+
