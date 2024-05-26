@@ -49,8 +49,17 @@ User Authentication: Secure login and registration using JWT.
 **Installation**
 To get a local copy up and running, follow these simple steps:
 
-**Clone the repository:**
+**i.Clone the repository:**
 
 (```git clone https://github.com/yourusername/homelyhub.git
 
 cd homelyhub```)
+**ii.Install dependencies for both frontend and backend:**
+(```# Install backend dependencies
+cd backend
+npm install
+
+# Install frontend dependencies
+cd ../frontend
+npm install
+```)
