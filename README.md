@@ -2,9 +2,13 @@
 HomelyHub is an online hotel booking application built using the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to browse, book, and manage hotel reservations seamlessly.
 
 # Table of Contents
+
 1.Introduction
+
 2.Features
+
 3.Technologies Used
+
 4.Installation
 5.Usage
 6.API Endpoints
