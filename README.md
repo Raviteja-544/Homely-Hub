@@ -26,37 +26,30 @@ HomelyHub provides an intuitive platform for users to book hotel rooms with ease
 
 User Authentication: Secure login and registration using JWT.
 
-Hotel Search: Users can search for hotels based on location, price, and amenities.
-Booking System: Book rooms with real-time availability updates.
-User Dashboard: View and manage bookings.
-Admin Panel: Admins can add, update, or remove hotels and manage bookings.
-Responsive Design: Optimized for both desktop and mobile devices.
+-Hotel Search: Users can search for hotels based on location, price, and amenities.
+-Booking System: Book rooms with real-time availability updates.
+-User Dashboard: View and manage bookings.
+-Admin Panel: Admins can add, update, or remove hotels and manage bookings.
+-Responsive Design: Optimized for both desktop and mobile devices.
 
 **Technologies Used**
 
 **Frontend:**
 
 - React.js
-
 - Redux (for state management)
-
 - Axios (for API calls)
-
 - Bootstrap (for styling)
 
 **Backend:**
 - Node.js
-
 - Express.js
-
 - MongoDB (with Mongoose for ORM)
-
-**Tools:**
-- Git & GitHub (for version control)
-- Postman (for API testing)
-- Heroku (for deployment)
 
 **Installation**
 To get a local copy up and running, follow these simple steps:
 
 **Clone the repository:**
+
+(```git clone https://github.com/yourusername/homelyhub.git
+cd homelyhub```)
